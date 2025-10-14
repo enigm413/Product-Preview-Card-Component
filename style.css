@@ -21,13 +21,9 @@ body {
   overflow: hidden;
 }
 
-.product-preview-image-wrapper {
-  background-color: blue;
-  height: 1000px;
-}
-
 .product-preview-image {
   max-width: 300px;
+  display: block;
 }
 
 .product-preview-text-wrapper {
@@ -98,4 +94,38 @@ body {
 .btn:hover {
   background-color: hsl(158, 42%, 18%);
   color: hsl(0, 0%, 100%);
+}
+
+/*---------------------------*/
+/*  Tablet Responsive Design */
+/*---------------------------*/
+@media (max-width: 640px) {
+  .product-preview-card {
+    max-width: 400px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .product-preview-image {
+    max-width: 100%;
+  }
+
+  .product-preview-text-wrapper {
+    padding: 36px;
+  }
+}
+
+/*---------------------------*/
+/*  Mobile Responsive Design */
+/*---------------------------*/
+@media (max-width: 440px) {
+  .product-preview-card {
+    max-width: 300px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .product-preview-text-wrapper {
+    padding: 32px;
+  }
 }

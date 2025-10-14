@@ -14,11 +14,19 @@
   </head>
   <body>
     <article class="product-preview-card">
-      <img
-        src="Images/image-product-desktop.jpg"
-        alt="Product Image"
-        class="product-preview-image"
-      />
+      <picture class="product-preview-image-wrapper">
+        <source
+          media="(max-width:640px)"
+          srcset="Images/image-product-mobile.jpg"
+        />
+
+        <img
+          src="Images/image-product-desktop.jpg"
+          alt="Desktop Product Image"
+          class="product-preview-image"
+          loading="lazy"
+        />
+      </picture>
 
       <div class="product-preview-text-wrapper">
         <h2 class="product-preview-title">Perfume</h2>
