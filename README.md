@@ -12,6 +12,14 @@ The component displays a beautiful product card with:
 - Price display with original and discounted prices
 - Interactive "Add to Cart" button
 
+### Desktop Preview
+
+![Desktop Version Demo Image of Product Preview Card Component](./Images/Screenshots/desktop-preview.png/)
+
+### Mobile Preview
+
+![Mobile Version Demo Image of Product Preview Card Component](./Images/Screenshots/mobile-preview.png/)
+
 ## Features
 
 - 🎨 Clean and elegant UI design
@@ -40,7 +48,10 @@ project-root/
 └── Images/
     ├── image-product-desktop.jpg  # Desktop product image
     ├── image-product-mobile.jpg   # Mobile product image
-    └── icon-cart.svg              # Shopping cart icon
+    ├── icon-cart.svg              # Shopping cart icon
+    └── screenshots/
+        ├── desktop-preview.png    # Desktop screenshot
+        └── mobile-preview.png     # Mobile screenshot
 ```
 
 ## Installation
@@ -51,11 +62,7 @@ project-root/
 
 ## Usage
 
-The component automatically adapts to different screen sizes:
-
-- **Desktop (>640px)**: Horizontal card layout with image on the left
-- **Tablet (≤640px)**: Vertical card layout with image on top
-- **Mobile (≤440px)**: Compact vertical layout optimized for small screens
+Click the [Demo App Link](https://simple-product-preview-card-component.vercel.app/)
 
 ## Design Specifications
 
